@@ -1,6 +1,6 @@
 {
-  "name": "momy",
-  "version": "0.7.0",
+  "name": "mongmy",
+  "version": "0.7.1",
   "description": "MongoDB to MySQL replication",
   "main": "index.js",
   "bin": {
@@ -16,7 +16,7 @@
     "coverage": "env TZ='Asia/Tokyo' istanbul cover _mocha -- -R spec -t 20000 test/specs/*.js",
     "standard": "standard bin/*.js lib/*.js test/**/*.js",
     "unit-test": "env TZ='Asia/Tokyo' mocha -t 20000 test/specs/types.js",
-    "try": "node ./bin/momy.js --config test/momyfile.json"
+    "try": "node ./bin/momy.js --config D:\\EcommerceLab\\TrackingEcomSites\\momymap.json --import"
   },
   "dependencies": {
     "change-case": "^3.0.0",
@@ -30,7 +30,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/cognitom/momy"
+    "url": "git://github.com/coorhair/momy"
   },
   "author": "Tsutomu Kawamura",
   "license": "MIT"

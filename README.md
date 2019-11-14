@@ -2,6 +2,10 @@
 [![NPM Status][npm-image]][npm-url]
 [![Codecov Status][codecov-image]][codecov-url]
 
+_Add support MySQL JSON type, works with Mongo 4.x, MySQL 8.x_
+
+Installation command `npm install -g mongmy`
+
 # Momy
 
 [Momy](https://goo.gl/maps/s9hXxKyoACv) is a simple cli tool for replicating MongoDB to MySQL in realtime.
@@ -121,12 +125,14 @@ Currently these native types are supported:
 - `DATETIME`
 - `TIME`
 - `TEXT`
+- `JSON`
 
 There're also some aliases:
 
 - `number` => `BIGINT`
 - `boolean` => `TINYINT`
 - `string` => `VARCHAR`
+- `array` => `JSON`
 
 ### Field name normalization: fieldCase
 
