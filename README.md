@@ -2,9 +2,19 @@
 [![NPM Status][npm-image]][npm-url]
 [![Codecov Status][codecov-image]][codecov-url]
 
-_Add support MySQL JSON type, works with Mongo 4.x, MySQL 8.x_
+*Add support MySQL JSON type, Mongo authentication, works with Mongo 4.x, MySQL 8.x*
 
-Installation command `npm install -g mongmy`
+Installation via npm
+```bash
+$ npm install -g @regang/momy
+```
+
+or yarn
+```bash
+$ yarn global add @regang/momy
+```
+
+*Origin document below!*
 
 # Momy
 

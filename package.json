@@ -1,5 +1,5 @@
 {
-  "name": "mongmy",
+  "name": "@regang/momy",
   "version": "0.7.1",
   "description": "MongoDB to MySQL replication",
   "main": "index.js",
@@ -30,8 +30,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/coorhair/momy"
+    "url": "git://github.com/coorhair/momy.git"
   },
   "author": "Tsutomu Kawamura",
-  "license": "MIT"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/coorhair/momy/issues"
+  },
+  "homepage": "https://github.com/coorhair/momy#readme",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  }
 }
