@@ -4,6 +4,31 @@
 
 *Add support MySQL JSON type, Mongo authentication, works with Mongo 4.x, MySQL 8.x*
 
+*Add support parallel import from collections to tables*
+
+*Add support Mysql connection pool*
+
+*Add support selectable some collections for importing instead of import all*
+
+## Usages:
+
+Sync
+```bash
+$ momy --config momymap.json
+```
+
+Import all collection then sync
+```bash
+$ momy --config momymap.json --import
+```
+
+Import some collections (no space, comma separator) then sync
+```bash
+$ momy --config momymap.json --import collection1,collection2,collection3
+```
+
+# Installation:
+
 Installation via npm
 ```bash
 $ npm install -g @regang/momy
@@ -12,6 +37,11 @@ $ npm install -g @regang/momy
 or yarn
 ```bash
 $ yarn global add @regang/momy
+```
+
+upgrade momy package
+```bash
+$ yarn global upgrade @regang/momy --latest
 ```
 
 *Origin document below!*
