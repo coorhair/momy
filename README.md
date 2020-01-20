@@ -173,6 +173,7 @@ There're also some aliases:
 - `boolean` => `TINYINT`
 - `string` => `VARCHAR`
 - `array` => `JSON`
+- `object` => `JSON`
 
 ### Field name normalization: fieldCase
 
