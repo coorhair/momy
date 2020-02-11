@@ -1,6 +1,6 @@
 {
   "name": "@regang/momy",
-  "version": "0.8.5",
+  "version": "0.8.6",
   "description": "MongoDB to MySQL replication",
   "main": "index.js",
   "bin": {
