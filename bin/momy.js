@@ -6,7 +6,7 @@ const Tailer = require('../lib/tailer.js')
 const fs = require('fs')
 const path = require('path')
 const program = require('commander')
-const pkjson = require('./package.json')
+const pkjson = require('../package.json')
 
 const DEFAULT_CONFIG_PATH = 'momyfile.json'
 
