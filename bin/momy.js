@@ -6,6 +6,7 @@ const Tailer = require('../lib/tailer.js')
 const fs = require('fs')
 const path = require('path')
 const program = require('commander')
+const pkjson = require('./package.json')
 
 const DEFAULT_CONFIG_PATH = 'momyfile.json'
 
@@ -17,7 +18,7 @@ function import_collections(value, previous) {
 }
 
 program
-  .version('0.0.1')
+  .version(`${pkjson.version}`)
   .description('A simple cli tool for replicating MongoDB to MySQL in realtime.')
   .option('--config <filepath>', 'path to momy mapping file', DEFAULT_CONFIG_PATH)
   .option('--import [collections]', 'list of collection name to import, no collection provided means import all avail collections', import_collections)
