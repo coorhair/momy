@@ -34,7 +34,8 @@ program
 // const findCollections = (p, c, i, a) => c === '--import' && a[i + 1] ? a[i + 1] : p
 // const collections = process.argv.reduce(findCollections, '')
 
-const config = program.config
+const filepath = program.config
+const config = JSON.parse(fs.readFileSync(path.isAbsolute(filepath) ? filepath : path.join(process.cwd(), filepath)))
 const cliMode = program.cliMode
 const collections = program.import === true ? [] : program.import
 const refresh = !!collections
