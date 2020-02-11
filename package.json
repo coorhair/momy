@@ -1,6 +1,6 @@
 {
   "name": "@regang/momy",
-  "version": "0.8.3",
+  "version": "0.8.4",
   "description": "MongoDB to MySQL replication",
   "main": "index.js",
   "bin": {
@@ -20,8 +20,9 @@
   },
   "dependencies": {
     "change-case": "^3.0.0",
+    "commander": "^4.1.1",
     "moment": "^2.15.2",
-    "mongodb": "^2.2.11",
+    "mongodb": "^3.5.2",
     "mysql": "^2.12.0",
     "sqlstring": "^2.2.0"
   },
